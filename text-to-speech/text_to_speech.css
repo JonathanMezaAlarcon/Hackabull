@@ -1,18 +1,3 @@
-body {
-  background: rgb(148, 0, 211);
-  text-align: center;
-}
-h1 {
-  font-size: 60px;
-  color: #fff;
-}
-button {
-  cursor: pointer;
-  padding: 10px 15px;
-  border-radius: 5px;
-  color: rgb(49, 44, 44);
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 * {
@@ -52,7 +37,6 @@ li {
   margin-left: 15%;
   margin-right: 10%;
   list-style-type: circle;
-  text-align: left;
 }
 
 a {
