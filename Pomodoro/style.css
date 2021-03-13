@@ -1,0 +1,179 @@
+/* Body background and font */
+body {
+  background: #1d1d1d;
+  font-family: "Pacifico", cursive;
+}
+
+/* Main heading */
+.heading {
+  color: #bae8e8;
+}
+
+/* Countdown timer */
+.timer {
+  color: #ffffff;
+  text-align: center;
+  width: 20rem;
+  height: 20rem;
+  border: 5px solid #fff;
+  border-radius: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  width: 100%;
+}
+
+/* remove the padding on the play button */
+.btn {
+  padding: 0;
+}
+
+/* play and reset icons */
+.fa-play,
+.fa-redo-alt {
+  color: #e3f6f5;
+  border: 2px solid transparent;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+
+.fa-play:hover,
+.fa-redo-alt:hover {
+  color: #bae8e8;
+  border: 2px solid #bae8e8;
+  transition: 0.3s ease;
+}
+
+/* Dynamic class */
+/* Make the message visible */
+.show_message {
+  display: block;
+  padding: 1rem 0;
+  color: #272343;
+  background: #e3f6f5;
+  border-radius: 0.5rem;
+  transition: 0.5s ease;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  text-decoration: none;
+  color: rgb(255, 250, 244);
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+
+#wrapper {
+  display: flex;
+  position: relative;
+}
+
+#wrapper .sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgb(14, 13, 13);
+  height: 100%;
+  width: 17%;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+li {
+  padding-top: 35px;
+  line-height: 0;
+  font-size: 17px;
+  margin-left: 15%;
+  margin-right: 10%;
+  list-style-type: circle;
+}
+
+a {
+  color: #fd2155;
+}
+
+a:hover {
+  color: grey;
+}
+
+.main_content {
+  margin-left: 15%;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 15%;
+  margin-right: 10%;
+  line-height: 170%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  text-decoration: none;
+  color: rgb(255, 250, 244);
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+
+#wrapper {
+  display: flex;
+  position: relative;
+}
+
+#wrapper .sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgb(14, 13, 13);
+  height: 100%;
+  width: 17%;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+li {
+  padding-top: 35px;
+  line-height: 0;
+  font-size: 17px;
+  margin-left: 15%;
+  margin-right: 10%;
+  list-style-type: circle;
+}
+
+a {
+  color: #fd2155;
+}
+
+a:hover {
+  color: grey;
+}
+
+.main_content {
+  margin-left: 15%;
+}
+
+p {
+  font-size: 20px;
+  margin-left: 15%;
+  margin-right: 10%;
+  line-height: 170%;
+}
