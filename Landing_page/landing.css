@@ -32,7 +32,11 @@ h1 {
 
 li {
   padding-top: 35px;
-  font-size: 25px;
+  line-height: 0;
+  font-size: 17px;
+  margin-left: 15%;
+  margin-right: 10%;
+  list-style-type: circle;
 }
 
 a {
@@ -52,12 +56,4 @@ p {
   margin-left: 15%;
   margin-right: 10%;
   line-height: 170%;
-}
-
-li {
-  line-height: 0;
-  font-size: 17px;
-  margin-left: 15%;
-  margin-right: 10%;
-  list-style-type: circle;
 }
