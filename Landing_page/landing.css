@@ -11,11 +11,6 @@ body {
   color: white;
 }
 
-#wrapper {
-  display: flex;
-  position: relative;
-}
-
 #wrapper .sidebar {
   position: fixed;
   left: 0;
@@ -33,7 +28,6 @@ h1 {
 li {
   padding-top: 35px;
   line-height: 0;
-  font-size: 17px;
   margin-left: 15%;
   margin-right: 10%;
   list-style-type: circle;
@@ -71,4 +65,23 @@ img {
 
 .menu_options {
   padding-left: 30px;
+}
+
+.menu_options{
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size:18px;
+  margin-right:80px;
+  color:rgba(253,33,85,1);
+
+}
+
+.menubar{
+  float:right;
+  margin-top:20px;
+}
+
+.logo{
+  float:left;
+  margin:10px;
 }

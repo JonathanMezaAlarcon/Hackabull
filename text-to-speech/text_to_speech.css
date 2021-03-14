@@ -6,11 +6,6 @@
   font-family: "Poppins", sans-serif;
 }
 
-#wrapper {
-  display: flex;
-  position: relative;
-}
-
 #wrapper .sidebar {
   position: fixed;
   left: 0;
@@ -34,11 +29,10 @@ a:hover {
 }
 
 .main_content {
-  margin-left: 10%;
+  margin-left: 15%;
   margin-top: 9%;
   margin-right: 10%;
 }
-
 
 p {
   font-size: 20px;
@@ -56,11 +50,26 @@ img {
   font-size: 23px;
 }
 
-.menu_options {
-  padding-left: 30px;
-}
-
 body {
   background-color: rgb(29, 29, 29);
   color: white;
+}
+
+.menu_options{
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size:18px;
+  margin-right:80px;
+  color:rgba(253,33,85,1);
+
+}
+
+.menubar{
+  float:right;
+  margin-top:20px;
+}
+
+.logo{
+  float:left;
+  margin:10px;
 }
