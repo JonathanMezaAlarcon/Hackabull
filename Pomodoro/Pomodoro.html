@@ -35,21 +35,18 @@
   <body onload="template()">
     <div id="wrapper">
       <div class="sidebar">
-          <br><br><br><br>
-          <h1>Menu</h1>
-          <ul>
-              <li style="list-style-type: none;"><a class="menu_options" href="/Landing_page/index.html">Home</a></li>
-              <li style="list-style-type: none;"><a class="menu_options" href="/Assignment_Page/assignment.html">Assignments</a></li>
-              <li style="list-style-type: none;"><a href="/Pomodoro/Pomodoro.html">Pomodoro</a></li>
-              <li style="list-style-type: none;"><a href="/Zoom_links/class_links.html">Class Links</a></li>
-              <li style="list-style-type: none;"><a href="/text-to-speech/text_to_speech.html">Text To Speech</a></li>
-          </ul>
+          <a href="/Landing_page/index.html" class="menu_options">Home</a>
+          <a href="/Assignment_Page/assignment.html" class="menu_options">Assignments</a>
+          <a href="/Pomodoro/Pomodoro.html" class="menu_options">Pomodoro</a>
+          <a href="/text-to-speech/text_to_speech.html" class="menu_options">Text To Speech</a>
+          <img src="/images/logo.png" alt="logo" height="60">
       </div>
   </div>
-    <div class="container">
-      
-      <h1 class="text-center my-5 heading">Pomodoro</h1>
 
+    <div class="container">
+      <div style="padding-top: 40px;">
+
+      <h1 class="text-center my-5 heading">Pomodoro</h1>
       
       <div class="container timer">
         <div class="row">
@@ -71,11 +68,12 @@
       </div>
 
       
-      <div class="conatiner d-flex justify-content-center my-5">
-        <button class="btn" onclick="start_timer()">
-          <i class="fas fa-play fa-2x"></i>
-        </button>
-        <a href="Pomodoro.html"><i class="fas fa-redo-alt fa-2x"></i></a>
+        <div class="conatiner d-flex justify-content-center my-5">
+          <button class="btn" onclick="start_timer()">
+            <i class="fas fa-play fa-2x"></i>
+          </button>
+          <a href="Pomodoro.html"><i class="fas fa-redo-alt fa-2x"></i></a>
+        </div>
       </div>
     </div>
   </body>
