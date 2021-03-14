@@ -25,11 +25,13 @@
 
     <div class="signin_border">
         <div class="title">Sign In</div>
-        <input class="textField" placeholder="Enter your email" />
-        <input class="textField" placeholder="Enter your password" />
-        <div class="password_forget">Forgot your password?</div>
-        <a class="button" href="/Assignment_page/assignment.html" style="text-decoration:none">LOG IN</a>
-        
+        <form action="auth" method="POST">
+            <input class="textField" type ="username" placeholder="Enter your email" required>
+            <input class="textField" type="password" placeholder="Enter your password" required>
+            <div class="password_forget">Forgot your password?</div>
+            <!-- <a class="button" type="submit" style="text-decoration:none">LOG IN</a> -->
+            <input class="button" type="submit">
+        </form>
     </div>
 
 </body>

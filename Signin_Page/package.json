@@ -1,0 +1,22 @@
+{
+  "name": "signin_page",
+  "version": "1.0.0",
+  "description": "sign in page",
+  "main": "login.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mysql": "^2.18.1",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JonathanMezaAlarcon/Hackabull/tree/master"
+  },
+  "author": "Emily",
+  "license": "ISC"
+}
