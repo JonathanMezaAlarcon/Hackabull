@@ -21,6 +21,8 @@ app.use(session({
 app.use(bodyParser.urlencoded({extended : true}));
 app.use(bodyParser.json());
 
+var sql = "INSERT INTO accounts (username, firstname, lastname, password) VALUES ('emilyylin17@gmail.com', 'Emily, 'Lin', 'Password12345')"; 
+
 app.get('/', function(request, response) {
 	response.sendFile(path.join(__dirname + '/signin.html'));
 });
@@ -41,15 +43,17 @@ app.post('/auth', function(request, response) {
 		});
 	} else {
 		response.send('Please enter Username and Password!');
+        console.log("username: " + username);
+        console.log(password);
 		response.end();
 	}
 });
 
 app.get('/home', function(request, response) {
 	if (request.session.loggedin) {
-		response.send('Welcome back, ' + request.session.username + '!');
+		response.sendFile(path.join(__dirname + '/assignments.html'));
 	} else {
-		response.send('Please login to view this page!');
+		response.send('Invalid Credentials!');
 	}
 	response.end();
 });
