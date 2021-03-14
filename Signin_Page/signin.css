@@ -22,22 +22,20 @@
   }
 
 
-  .v2_187 {
+  .signin_border {
     width: 373px;
     height: 329px;
     background: rgba(196,196,196,0);
-    opacity: 1;
     position: absolute;
     top: 285px;
     left: 535px;
-    border: 3px solid rgba(5,253,216,1);
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    overflow: hidden;
+    border: 3px solid #ED7D31;
+    border-radius: 7px;
+    overflow:hidden;
+    align-items: 'center';
+    justify-content: 'center';
   }
-  .v2_12 {
+  .title {
     width: 181px;
     color: rgba(255,255,255,1);
     position: absolute;
@@ -49,21 +47,19 @@
     opacity: 1;
     text-align: center;
   }
-  .v2_182 {
+  .textField {
     width: 289px;
     height: 36px;
     background: rgba(255,255,255,1);
-    opacity: 1;
-    position: absolute;
-    top: 342px;
-    left: 576px;
+    font-family: Open Sans;
+    font-weight: Regular;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
     overflow: hidden;
   }
-  .v2_191 {
+  /* .v2_191 {
     width: 175px;
     color: rgba(150,147,160,1);
     position: absolute;
@@ -74,38 +70,27 @@
     font-size: 15px;
     opacity: 1;
     text-align: center;
-  }
-  .v2_183 {
-    width: 288px;
-    height: 36px;
-    background: rgba(255,255,255,1);
-    opacity: 1;
-    position: absolute;
-    top: 400px;
-    left: 576px;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    overflow: hidden;
-  }
-  .v2_192 {
-    width: 175px;
-    color: rgba(150,147,160,1);
-    position: absolute;
-    top: 408px;
-    left: 576px;
-    font-family: Open Sans;
-    font-weight: Regular;
-    font-size: 15px;
-    opacity: 1;
-    text-align: center;
-  }
+  } */
 
   ::placeholder{
     color: rgba(150,147,160,1);
   }
-  .v2_186 {
+
+  .button {
+    background-color: rgba(253,33,85,1);
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: SemiBold;
+    border-radius:7px;
+  }
+
+  /* .v2_186 {
     width: 111px;
     height: 36px;
     background: rgba(253,33,85,1);
@@ -113,7 +98,7 @@
     position: absolute;
     top: 527px;
     left: 666px;
-  }
+  } */
   .v2_195 {
     width: 89px;
     color: rgba(255,255,255,1);
