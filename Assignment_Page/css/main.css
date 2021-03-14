@@ -339,18 +339,26 @@ img {
   font-size: 23px;
 }
 
+header {
+  overflow:hidden;
+  padding-top:20px;
+}
+
 .menu_options{
   font-family: Poppins;
+  font-weight: Bold;
+  font-size:18px;
   margin-right:80px;
   color:rgba(253,33,85,1);
+  
 }
 
 .menubar{
   float:right;
-  margin-top:20px;
+  margin-top:10px;
 }
 
 .logo{
-  float:left;
-  margin:10px;
+  position:relative;
+  left:20px;
 }
