@@ -1,50 +1,58 @@
 * {
     overflow-x: hidden;
-    padding: 0px !important;
-    margin: 0px !important;
-    vertical-align: middle;
+    justify-content:center;
+    align-items:center;
     
   }
 
   body {
     background-color:rgb(29,29,29);
+    
   }
 
-  .v1_2 {
-    width: 100%;
-    height: 750px;
-    background: rgba(29,29,29,1);
-    opacity: 1;
-    position: relative;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
+  .menu_options{
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size:18px;
+    margin-right:80px;
+    color:rgba(253,33,85,1);
+    
   }
 
+  .menubar{
+    float:right;
+    margin-top:20px;
+  }
+
+  .logo{
+    float:left;
+    margin:20px;
+    margin-top:10px;
+  }
 
   .signin_border {
     width: 373px;
     height: 329px;
     background: rgba(196,196,196,0);
-    position: absolute;
-    top: 285px;
-    left: 535px;
+    padding-top:45px;
+    padding-bottom:55px;
     border: 3px solid #ED7D31;
     border-radius: 7px;
     overflow:hidden;
-    align-items: 'center';
-    justify-content: 'center';
+    float:center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:100px;
   }
   .title {
     width: 181px;
     color: rgba(255,255,255,1);
-    position: absolute;
-    top: 202px;
-    left: 631px;
+    margin-left:auto;
+    margin-right:auto;
     font-family: Poppins;
-    font-weight: SemiBold;
+    font-weight: Bold;
     font-size: 40px;
-    opacity: 1;
+    padding-bottom:30px;
     text-align: center;
   }
   .textField {
@@ -53,24 +61,15 @@
     background: rgba(255,255,255,1);
     font-family: Open Sans;
     font-weight: Regular;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
+    border-radius: 7px;
     overflow: hidden;
+    display:flex;
+    padding-left:15px;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
   }
-  /* .v2_191 {
-    width: 175px;
-    color: rgba(150,147,160,1);
-    position: absolute;
-    top: 349px;
-    left: 561px;
-    font-family: Open Sans;
-    font-weight: Regular;
-    font-size: 15px;
-    opacity: 1;
-    text-align: center;
-  } */
+
 
   ::placeholder{
     color: rgba(150,147,160,1);
@@ -80,60 +79,31 @@
     background-color: rgba(253,33,85,1);
     border:none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 30px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     font-family: Poppins;
     font-weight: SemiBold;
     border-radius:7px;
+    font-weight:SemiBold;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
+    display:block;
+    overflow:hidden;
+    width:25%;
   }
 
-  /* .v2_186 {
-    width: 111px;
-    height: 36px;
-    background: rgba(253,33,85,1);
-    opacity: 1;
-    position: absolute;
-    top: 527px;
-    left: 666px;
-  } */
-  .v2_195 {
-    width: 89px;
-    color: rgba(255,255,255,1);
-    position: absolute;
-    top: 530px;
-    left: 676px;
-    font-family: Poppins;
-    font-weight: SemiBold;
-    font-size: 18px;
-    opacity: 1;
-    text-align: center;
-  }
-  .v2_197 {
+  .password_forget {
     width: 175px;
     color: rgba(255,255,255,1);
-    position: absolute;
-    top: 459px;
-    left: 561px;
     font-family: Open Sans;
     font-weight: Regular;
     font-size: 12px;
-    opacity: 1;
     text-align: center;
-  }
-  .v12_47 {
-    width: 242px;
-    height: 41px;
-    background: url("../images/v12_47.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 31px;
-    left: 51px;
-    overflow: hidden;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
   }
   
