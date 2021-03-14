@@ -302,22 +302,13 @@ body {
   left: 0;
   top: 0;
   background-color: rgb(14, 13, 13);
-  height: 100%;
-  width: 17%;
+  width: 100%;
+  height: 9%;
 }
 
 h1 {
   font-size: 40px;
   text-align: center;
-}
-
-li {
-  padding-top: 35px;
-  line-height: 0;
-  font-size: 17px;
-  margin-left: 15%;
-  margin-right: 10%;
-  list-style-type: circle;
 }
 
 a {
@@ -342,4 +333,17 @@ p {
 .title {
   margin-left: 15px;
   font-size: 100px;
+}
+
+img {
+  position: absolute;
+  right: 0;
+}
+
+#wrapper{
+  font-size: 23px;
+}
+
+.menu_options {
+  padding-left: 30px;
 }
