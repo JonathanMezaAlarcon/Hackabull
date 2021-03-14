@@ -1,0 +1,27 @@
+Merge branch 'master' of https://github.com/JonathanMezaAlarcon/Hackabull
+
+Signed-off-by: unknown <jonathanmeza097@gmail.com>
+
+# Conflicts:
+#	Signin_Page/index.html
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please run
+#	git update-ref -d MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch and 'j/master' have diverged,
+# and have 1 and 4 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	modified:   Signin_Page/index.html
+#	modified:   Signin_Page/signin.css
+#
